@@ -11,6 +11,15 @@ module.exports = {
   plugins: [
     `gatsby-plugin-sass`,
     {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [
+            `Open Sans\:400, 500, 700`,
+            `Chilanka\:400, 700` // you can also specify font weights and styles
+          ],
+      }
+    },
+    {
       resolve: `gatsby-source-graphql`,
       options: {
         typeName: `hasura`,

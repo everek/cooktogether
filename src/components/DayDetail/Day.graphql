@@ -1,0 +1,7 @@
+query Day($dayId: Int!){
+    day(where: {id: {_eq: $dayId }}) {
+        uid
+        id
+        date
+    }
+}
