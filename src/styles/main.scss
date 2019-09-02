@@ -1,0 +1,25 @@
+@import "~bulma";
+
+body {
+  background: peachpuff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p {
+  margin-bottom: 5px;
+}
+
+input,
+label {
+  &.radio {
+    margin-right: 5px;
+  }
+}
+
+.pr-1 {
+  padding-right: 1rem;
+}
